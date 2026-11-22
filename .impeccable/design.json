@@ -1,0 +1,364 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-11-21T12:22:47+00:00",
+  "title": "Design System: Astreo",
+  "extensions": {
+    "colorMeta": {
+      "lavender": {
+        "role": "primary",
+        "displayName": "Lavanda del revisor",
+        "canonical": "oklch(72.6% 0.152 289.3)",
+        "tonalRamp": [
+          "#0b0917",
+          "#271b4e",
+          "#453879",
+          "#6558a7",
+          "#8879d7",
+          "#ac9cff",
+          "#cfc2ff",
+          "#edeaff"
+        ]
+      },
+      "lavender-deep": {
+        "role": "primary",
+        "displayName": "Lavanda profundo",
+        "canonical": "oklch(56.2% 0.204 282.8)",
+        "tonalRamp": [
+          "#090720",
+          "#24076b",
+          "#3f2b9c",
+          "#5c4ccf",
+          "#7d73f7",
+          "#a09dff",
+          "#c3c3ff",
+          "#e9ebff"
+        ]
+      },
+      "added": {
+        "role": "secondary",
+        "displayName": "Verde añadido",
+        "canonical": "oklch(69.6% 0.149 162.5)",
+        "tonalRamp": [
+          "#010f07",
+          "#003318",
+          "#005633",
+          "#007b50",
+          "#00a36f",
+          "#41c993",
+          "#7bebb8",
+          "#d4f9e5"
+        ]
+      },
+      "modified": {
+        "role": "secondary",
+        "displayName": "Ámbar modificado",
+        "canonical": "oklch(81.3% 0.135 74.6)",
+        "tonalRamp": [
+          "#110a03",
+          "#3a2000",
+          "#5f3d00",
+          "#875d17",
+          "#b17e2f",
+          "#dda146",
+          "#ffc469",
+          "#ffebcc"
+        ]
+      },
+      "removed-ink": {
+        "role": "secondary",
+        "displayName": "Rosa de antes",
+        "canonical": "oklch(81.0% 0.106 11.6)",
+        "tonalRamp": [
+          "#120809",
+          "#3d1a1f",
+          "#63353c",
+          "#8d535a",
+          "#b8727b",
+          "#e6939d",
+          "#ffb6c0",
+          "#ffe5e8"
+        ]
+      },
+      "agent-claude": {
+        "role": "tertiary",
+        "displayName": "Naranja Claude",
+        "canonical": "oklch(67.2% 0.131 38.8)",
+        "tonalRamp": [
+          "#150704",
+          "#461302",
+          "#6f2f19",
+          "#9b4c33",
+          "#c86c4d",
+          "#ef9273",
+          "#ffb89c",
+          "#ffe6dc"
+        ]
+      },
+      "ink": {
+        "role": "neutral",
+        "displayName": "Tinta",
+        "canonical": "oklch(94.0% 0.000 89.9)",
+        "tonalRamp": [
+          "#0b0b0b",
+          "#262626",
+          "#454545",
+          "#666666",
+          "#898989",
+          "#aeaeae",
+          "#d1d1d1",
+          "#eeeeee"
+        ]
+      },
+      "muted": {
+        "role": "neutral",
+        "displayName": "Gris secundario",
+        "canonical": "oklch(67.3% 0.000 89.9)",
+        "tonalRamp": [
+          "#0b0b0b",
+          "#262626",
+          "#454545",
+          "#666666",
+          "#898989",
+          "#aeaeae",
+          "#d1d1d1",
+          "#eeeeee"
+        ]
+      },
+      "faint": {
+        "role": "neutral",
+        "displayName": "Gris tenue",
+        "canonical": "oklch(53.8% 0.000 89.9)",
+        "tonalRamp": [
+          "#0b0b0b",
+          "#262626",
+          "#454545",
+          "#666666",
+          "#898989",
+          "#aeaeae",
+          "#d1d1d1",
+          "#eeeeee"
+        ]
+      },
+      "well": {
+        "role": "neutral",
+        "displayName": "Pozo",
+        "canonical": "oklch(15.1% 0.006 285.6)",
+        "tonalRamp": [
+          "#0b0b0c",
+          "#262629",
+          "#454548",
+          "#666668",
+          "#89898b",
+          "#aeaeb0",
+          "#d1d1d2",
+          "#eeeeef"
+        ]
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "Display",
+        "purpose": "Titulares del inicio, la introducción y el resumen."
+      },
+      "body": {
+        "displayName": "Cuerpo",
+        "purpose": "Texto base de la interfaz."
+      },
+      "code": {
+        "displayName": "Código",
+        "purpose": "El diff."
+      },
+      "code-ghost": {
+        "displayName": "Fantasma",
+        "purpose": "Lo de antes, tachado, encima de lo que cambió."
+      }
+    },
+    "shadows": [
+      {
+        "name": "menu",
+        "value": "0 24px 60px rgba(0,0,0,.55), 0 6px 16px rgba(0,0,0,.30)",
+        "purpose": "Menú Comparar con."
+      },
+      {
+        "name": "pill",
+        "value": "0 12px 32px rgba(0,0,0,.50)",
+        "purpose": "Píldoras de abajo."
+      },
+      {
+        "name": "focus-card",
+        "value": "0 24px 60px rgba(0,0,0,.35)",
+        "purpose": "Tarjeta de Una a una."
+      },
+      {
+        "name": "node",
+        "value": "0 6px 18px rgba(0,0,0,.30)",
+        "purpose": "Nodos del mapa."
+      },
+      {
+        "name": "node-selected",
+        "value": "0 10px 26px rgba(0,0,0,.45)",
+        "purpose": "Nodo seleccionado."
+      },
+      {
+        "name": "button-primary",
+        "value": "0 1px 2px rgba(0,0,0,.40)",
+        "purpose": "Botón principal."
+      }
+    ],
+    "motion": [
+      {
+        "name": "ease-out-expo",
+        "value": "cubic-bezier(.16,1,.3,1)",
+        "purpose": "Eclipse de bienvenida y titular."
+      },
+      {
+        "name": "eclipse-slide",
+        "value": "1.7s, retraso 0.5s",
+        "purpose": "El disco de ahora se separa del de antes."
+      },
+      {
+        "name": "live-pulse",
+        "value": "1.6s ease-out infinite",
+        "purpose": "Punto vivo."
+      },
+      {
+        "name": "float-in",
+        "value": "160ms, subida 4px",
+        "purpose": "Entrada de píldoras y menú (propuesta)."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "min-window",
+        "value": "1024x640"
+      },
+      {
+        "name": "reference-window",
+        "value": "1440x900"
+      }
+    ]
+  },
+  "components": [
+    {
+      "name": "Botón principal",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "La acción principal de la vista, con su tecla dentro. Uno por vista.",
+      "html": "<button class=\"ds-btn-primary\">Seguir revisando <span class=\"ds-kbd\">↵</span></button>",
+      "css": ".ds-btn-primary{height:32px;display:inline-flex;align-items:center;gap:10px;padding:0 7px 0 14px;border:0;border-radius:8px;background:#6a5ae6;color:#fff;font:600 13px -apple-system,sans-serif;box-shadow:inset 0 1px 0 rgba(255,255,255,.18),0 1px 2px rgba(0,0,0,.4);cursor:default;transition:background .12s}.ds-btn-primary:hover{background:#7566ec}.ds-btn-primary:active{background:#5f50d9}.ds-btn-primary:focus-visible{outline:2px solid rgba(165,148,255,.6);outline-offset:2px}.ds-btn-primary .ds-kbd{min-width:18px;height:18px;padding:0 5px;border-radius:4px;display:inline-flex;align-items:center;justify-content:center;font:600 10.5px -apple-system,sans-serif;color:#969696;background:rgba(235,235,235,.07);box-shadow:inset 0 -1px 0 rgba(0,0,0,.35),inset 0 0 0 .5px rgba(255,255,255,.08)}.ds-btn-primary .ds-kbd{background:rgba(255,255,255,.16);color:#fff;box-shadow:none}"
+    },
+    {
+      "name": "Botón secundario",
+      "kind": "button",
+      "refersTo": "button-secondary",
+      "description": "Acciones de apoyo en barras y cabeceras.",
+      "html": "<button class=\"ds-btn\">Marcar visto <span class=\"ds-kbd\">⌘↵</span></button>",
+      "css": ".ds-btn{height:28px;display:inline-flex;align-items:center;gap:8px;padding:0 6px 0 11px;border:0;border-radius:7px;background:rgba(235,235,235,.08);color:#ebebeb;font:500 12.5px -apple-system,sans-serif;box-shadow:inset 0 .5px 0 rgba(255,255,255,.08);transition:background .12s}.ds-btn:hover{background:rgba(235,235,235,.12)}.ds-btn:focus-visible{outline:2px solid rgba(165,148,255,.6);outline-offset:2px}.ds-kbd{min-width:18px;height:18px;padding:0 5px;border-radius:4px;display:inline-flex;align-items:center;justify-content:center;font:600 10.5px -apple-system,sans-serif;color:#969696;background:rgba(235,235,235,.07);box-shadow:inset 0 -1px 0 rgba(0,0,0,.35),inset 0 0 0 .5px rgba(255,255,255,.08)}"
+    },
+    {
+      "name": "Control segmentado",
+      "kind": "nav",
+      "refersTo": "segmented",
+      "description": "Cambia entre las vistas Fantasma, Mapa y Una a una.",
+      "html": "<div class=\"ds-seg\"><span class=\"on\">Fantasma</span><span>Mapa</span><span>Una a una</span></div>",
+      "css": ".ds-seg{display:inline-flex;padding:2px;border-radius:8px;background:rgba(235,235,235,.06);box-shadow:inset 0 0 0 .5px rgba(255,255,255,.06);font:500 12.5px -apple-system,sans-serif}.ds-seg span{height:24px;padding:0 12px;display:flex;align-items:center;border-radius:6px;color:#969696}.ds-seg span:hover{color:#cfcfcf}.ds-seg span.on{background:rgba(235,235,235,.12);color:#ebebeb;box-shadow:0 1px 2px rgba(0,0,0,.3),inset 0 .5px 0 rgba(255,255,255,.08)}"
+    },
+    {
+      "name": "Fila del lateral",
+      "kind": "custom",
+      "refersTo": "row-file",
+      "description": "Archivo del recorrido: estado M/A, visto o actual.",
+      "html": "<div class=\"ds-rail\"><div class=\"ds-row\">rateLimit.ts<b style=\"color:#10b981\">A</b></div><div class=\"ds-row cur\">sessions.ts<b style=\"color:#f5b453\">M</b></div><div class=\"ds-row seen\">http.ts<b>✓</b></div></div>",
+      "css": ".ds-rail{width:232px;padding:6px;background:rgba(13,13,13,.92);border-radius:10px;font:13px -apple-system,sans-serif}.ds-row{height:28px;display:flex;align-items:center;gap:9px;padding:0 8px;border-radius:7px;color:#cfcfcf}.ds-row b{margin-left:auto;font-size:11px;font-weight:600;width:12px;text-align:center}.ds-row:hover{background:rgba(235,235,235,.06)}.ds-row.cur{background:rgba(235,235,235,.08);color:#ebebeb}.ds-row.seen{color:#969696}"
+    },
+    {
+      "name": "Diff fantasma",
+      "kind": "custom",
+      "refersTo": "pane",
+      "description": "Lo de antes, tachado y tenue, encima de la línea que cambió.",
+      "html": "<div class=\"ds-code\"><div class=\"g\"><span></span><i></i><code>return res.status(401).end();</code></div><div class=\"l\"><span>25</span><i></i><code>return res.status(401).json({ error: \"Session expired\" });</code></div></div>",
+      "css": ".ds-code{background:rgba(20,20,20,.92);border-radius:10px;padding:12px 0;font-family:'JetBrains Mono',ui-monospace,monospace}.ds-code>div{display:grid;grid-template-columns:46px 2px minmax(0,1fr);column-gap:10px}.ds-code span{text-align:right;color:#575757;font-size:12px}.ds-code .g{font-size:11.5px;line-height:14px}.ds-code .g code{color:rgba(253,164,175,.74);text-decoration:line-through;text-decoration-color:rgba(244,63,94,.7)}.ds-code .l{font-size:13px;line-height:22px;background:rgba(16,185,129,.07)}.ds-code .l i{background:#10b981;border-radius:1px}.ds-code .l code{color:#d6d6d6;white-space:pre}"
+    },
+    {
+      "name": "Nota",
+      "kind": "card",
+      "refersTo": "note",
+      "description": "Nota del revisor anclada a una línea, con su destino.",
+      "html": "<div class=\"ds-note\"><i></i><div class=\"h\"><span class=\"av\"></span><b>Tú</b><em>línea 25</em></div><p>fix/session-expiry responde 440 a una sesión caducada. Alinea este 401 con esa rama.</p><div class=\"f\">Para el agente · .astreo/review.md</div></div>",
+      "css": ".ds-note{position:relative;max-width:460px;margin-top:8px;border-radius:10px;background:rgba(165,148,255,.10);box-shadow:inset 0 0 0 .5px rgba(165,148,255,.24);font:13px -apple-system,sans-serif;color:#ecebff}.ds-note>i{position:absolute;left:18px;top:-5px;width:9px;height:9px;transform:rotate(45deg);background:#25233a;box-shadow:-.5px -.5px 0 rgba(165,148,255,.3)}.ds-note .h{display:flex;align-items:center;gap:8px;padding:10px 12px 0}.ds-note .av{width:20px;height:20px;border-radius:50%;background:linear-gradient(180deg,#b9adff,#8f7cf6)}.ds-note em{font-style:normal;font-size:11.5px;color:rgba(222,216,255,.5)}.ds-note p{margin:6px 14px 0 40px;line-height:1.55}.ds-note .f{padding:9px 14px 10px 40px;font-size:11.5px;color:rgba(222,216,255,.5)}"
+    },
+    {
+      "name": "Píldora en vivo",
+      "kind": "custom",
+      "refersTo": "live-pill",
+      "description": "Avisa de lo que cambió mientras lees, sin mover la vista.",
+      "html": "<div class=\"ds-live\"><i></i>Claude Code cambió <b>server.ts</b>, que ya habías visto<button>Ver lo nuevo <span class=\"ds-kbd\">⌘J</span></button></div>",
+      "css": ".ds-live{display:inline-flex;align-items:center;gap:9px;height:36px;padding:0 5px 0 12px;border-radius:11px;background:rgba(40,40,42,.90);backdrop-filter:blur(24px) saturate(1.4);-webkit-backdrop-filter:blur(24px) saturate(1.4);box-shadow:0 12px 32px rgba(0,0,0,.5),inset 0 0 0 .5px rgba(255,255,255,.14);font:12.5px -apple-system,sans-serif;color:#cfcfcf;white-space:nowrap}.ds-live i{width:7px;height:7px;border-radius:50%;background:#10b981}.ds-live b{color:#ebebeb;font-weight:600}.ds-live button{height:26px;display:inline-flex;align-items:center;gap:8px;padding:0 6px 0 11px;border:0;border-radius:7px;background:rgba(235,235,235,.08);color:#ebebeb;font:500 12.5px -apple-system,sans-serif}.ds-live button:hover{background:rgba(235,235,235,.12)}.ds-kbd{min-width:18px;height:18px;padding:0 5px;border-radius:4px;display:inline-flex;align-items:center;justify-content:center;font:600 10.5px -apple-system,sans-serif;color:#969696;background:rgba(235,235,235,.07);box-shadow:inset 0 -1px 0 rgba(0,0,0,.35),inset 0 0 0 .5px rgba(255,255,255,.08)}"
+    },
+    {
+      "name": "Etiquetas",
+      "kind": "chip",
+      "refersTo": "badge-new",
+      "description": "Nuevo para worktrees descubiertos; cambió para lo ya visto que el agente volvió a tocar.",
+      "html": "<span class=\"ds-badge\">Nuevo</span> <span class=\"ds-badge chg\">cambió</span>",
+      "css": ".ds-badge{font:600 10.5px -apple-system,sans-serif;padding:1px 6px;border-radius:5px;background:rgba(235,235,235,.08);color:#cfcfcf}.ds-badge.chg{background:rgba(245,180,83,.12);color:#f5b453}"
+    }
+  ],
+  "narrative": {
+    "northStar": "El crepúsculo del revisor",
+    "overview": "Astreo es la hora en que se mira lo que hicieron otros. El agente escribe y tú decides. La interfaz es una ventana de cristal oscuro sobre el escritorio, el código ocupa casi todo, y lo único con color propio es lo que importa para decidir: qué cambió (verde, ámbar y rosa) y lo que es tuyo (lavanda). Todo lo demás son grises sobre cristal.\n\nEl acabado parte de Monocode como inspiración visual (D32): cristal translúcido, tipografía compacta, filas de 28 px y bordes de medio píxel. Ni una línea de su código (D13). De la marca se quedan el lavanda, la tipografía y el botón principal (D37). La app es solo oscura (D16) y nativa de macOS: semáforo, atajos con ⌘ y vibrancy.\n\nEl logo es el Eclipse: dos discos iguales, el de antes punteado y por detrás, y lo que asoma del de ahora es lo que cambió (D34). La misma idea aparece en la interfaz: lo de antes, tachado y tenue, encima de lo de ahora.",
+    "keyCharacteristics": [
+      "Cristal oscuro en todas las ventanas; los paneles son una segunda capa de cristal, no fondos opacos.",
+      "Densidad de herramienta: texto base de 13 px, filas de 26 a 32 px y bordes de 0,5 px.",
+      "Color solo con significado: los colores del diff para el cambio y el lavanda para el revisor.",
+      "Teclado primero: cada acción visible enseña su atajo.",
+      "Nada se mueve solo: lo que llega en vivo se anuncia, no desplaza la vista."
+    ],
+    "rules": [
+      {
+        "name": "La Regla del Lavanda",
+        "body": "El lavanda es del revisor, nunca del agente. Si algo lo hizo el agente (el porqué, su marca, sus cambios), no lleva lavanda.",
+        "section": "colors"
+      },
+      {
+        "name": "La Regla del Diff",
+        "body": "El verde, el ámbar y el rosa solo significan añadido, modificado y antes. No se usan para estados de éxito, avisos ni decoración. La única excepción es el punto verde de \"en vivo\".",
+        "section": "colors"
+      },
+      {
+        "name": "La Regla de las Dos Voces",
+        "body": "Solo hay dos fuentes en pantalla: SF para hablar y mono para el código. El tamaño mínimo es 10,5 px y solo para teclas y etiquetas.",
+        "section": "typography"
+      },
+      {
+        "name": "La Regla de las Cifras",
+        "body": "Las cifras que se comparan (líneas, archivos, progreso) usan dígitos tabulares.",
+        "section": "typography"
+      },
+      {
+        "name": "La Regla del Cristal",
+        "body": "Ninguna ventana es opaca (D37). Si un fondo tapa del todo el escritorio, está mal, salvo las miniaturas del inicio (`well`).",
+        "section": "elevation"
+      }
+    ],
+    "dos": [
+      "**Do** usar el cristal (`window` sobre `Blurred`, y `pane` encima) en toda ventana nueva, incluidas preferencias y diálogos propios.",
+      "**Do** enseñar la tecla de cada acción visible con el componente de tecla. Astreo se usa con el teclado.",
+      "**Do** nombrar al agente siempre con su marca real delante: \"Claude Code\", \"Codex\".",
+      "**Do** usar mono para todo lo que se copia o se compara: símbolos, rutas, hashes y `+N −N`.",
+      "**Do** escribir la interfaz en español, en frases cortas, sin exclamaciones y diciendo qué pasa y qué puedes hacer (\"Nada sin commitear en main\").",
+      "**Do** usar los archivos de `assets/brand/` para el logo; el logotipo es un SVG con trazos, no texto."
+    ],
+    "donts": [
+      "**Don't** usar fondos opacos de estilo Linear en ventanas o paneles (D37).",
+      "**Don't** llamar a `.backdrop_blur` fuera de `src/ui/glass.rs`, ni dar cristal a otras superficies que no sean el menú y las dos píldoras (D45).",
+      "**Don't** añadir tema claro (D16).",
+      "**Don't** mover el scroll, cambiar el archivo abierto ni reordenar el lateral cuando llega un cambio en vivo (D20, D41).",
+      "**Don't** usar el lavanda para algo del agente ni los colores del diff para algo que no sea el diff.",
+      "**Don't** mostrar porcentajes de parecido. Se dice \"repetida en\" (D33).",
+      "**Don't** usar un icono genérico de terminal o de robot para un agente (D39).",
+      "**Don't** parecer una app de agentes con barra lateral, chat y paneles. El código ocupa la ventana (D18).",
+      "**Don't** usar Geist fuera del logotipo, ni tamaños por debajo de 10,5 px."
+    ]
+  }
+}
